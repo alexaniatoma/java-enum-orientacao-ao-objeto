@@ -3,10 +3,16 @@ package heranca.desafio;
 public class Carro {
 	final int 	VELOCIDADE_MAXIMA;
 	protected int velocidadeInicial;
-	protected int delta = 5;
+	private int delta = 5;
 	
+	public int getDelta() {
+		return delta;
+	}
 
-	
+	public void setDelta(int delta) {
+		this.delta = delta;
+	}
+
 	Carro(int velocidadeMaxima) {
 		VELOCIDADE_MAXIMA = velocidadeMaxima;
 	}

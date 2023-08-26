@@ -3,7 +3,7 @@ package heranca.desafio;
 public class CarroMain {
 	public static void main(String[] args) {
 		
-		Carro c1 = new Civic(320);
+		Civic c1 = new Civic(320);
 	
 		c1.acelerar();
 		System.out.println(c1);
@@ -16,13 +16,18 @@ public class CarroMain {
 		c1.frear();
 		c1.frear();
 		c1.frear();
+		
+		
 		System.out.println("Civic " + c1);
 		
 		Ferrari f1 = new Ferrari(400);
 		f1.acelerar();
+		f1.ligarTurbo();
+		f1.frear();
+		f1.ligarTurbo();
 		f1.frear();
 		
-		System.out.println("Ferrari " + f1);
+		//System.out.println("Ferrari " + f1);
 		
 		
 	}
