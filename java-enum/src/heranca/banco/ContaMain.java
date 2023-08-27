@@ -8,7 +8,7 @@ public class ContaMain {
 		Conta y = new ContaPoupanca(1002, "Maria", 1000.0, 0.01);
 		
 		x.sacar(50.0);
-		y.sacar(50.0);
+		y.sacar (50.0);
 		
 		System.out.println(x.getSaldo());
 		System.out.println(y.getSaldo());
